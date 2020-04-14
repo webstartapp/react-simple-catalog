@@ -1,0 +1,157 @@
+header.App-header {
+    background-color: #CCF;
+    position: relative;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    font-family:arial
+}
+
+.logo {
+    word-break: break-all;
+    width: 50px;
+    height: 75px;
+    font-size: 25px;
+    line-height: 1;
+    font-family: courier;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+header.App-header:after,.c:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.htext {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.5;
+    padding-top: 15px;
+    margin: 0px 60px;
+}
+
+.w3 {
+    width: 33%;
+    min-width: 250px;
+    float: left;
+}
+
+.profile {
+    box-shadow: 1px 1px 2px #CCF;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    padding-bottom: 0px;
+    background-color: #EEF;
+    line-height: 30px;
+    height: 180px;
+    position: relative;
+}
+
+h2 {
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #CCF;
+}
+h2 input {
+    font-size:inherit;
+    height: 30px;
+    padding:inherit;
+    font-weight: inherit;
+    width: 100%;
+}
+
+.w2 {
+    width: 50%;
+    float: left;
+}
+
+b {
+    float: right;
+    display: block;
+    position: relative;
+    padding-right: 20px;
+}
+
+.c {
+    clear: both;
+}
+
+
+.stats {
+    margin-bottom: 10px;
+}
+
+.update {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.update button {
+    width: 100%;
+    line-height: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #CCF;
+    border: 0px solid #CCC;
+    cursor: pointer;
+}
+
+.update button:hover {
+    background: #AAF;
+}
+input,select {
+    line-height: 30px;
+    display: block;
+    border: none;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+b input {
+    width: 60px;
+    text-align: right;
+    border: none;
+    line-height: 30px;
+    height: 30px;
+}
+.notvalid {
+    background-color: #FCC;
+}
+.valid {
+    background-color: #CFC;
+}
+
+.filters input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.filters {
+    padding-top: 10px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.filters button {
+    margin-bottom: 10px;
+}
