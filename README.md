@@ -15,4 +15,4 @@ I have created two helpers "input.js" and "select.js" that handles the user inpu
 The "profile.js" is the view only element.
 
 
-To handle data and actions I decided to use reducer. 
+To handle data and actions I have used FLUX. 
